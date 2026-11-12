@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gopi's portfolio — Python, machine learning, web development and SQL.">
+  <title>Gopi | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">G<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+        <a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</p>
+        <h1>Hi, I'm <span class="gradient-text">Gopi.</span><br> I build things<br>with <span class="typed-word" id="typedWord">Python</span><span class="cursor">|</span></h1>
+        <p class="hero-description">A curious developer interested in Python, machine learning and building useful web experiences. I enjoy turning ideas into practical projects and learning something new with every build.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/gopipula33" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/pula-gopi-890382441/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-label="Decorative code illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>gopi.py</small></div>
+          <div class="code-lines">
+            <p><i>01</i> <b>class</b> <strong>Developer</strong>:</p>
+            <p><i>02</i> &nbsp;&nbsp;<b>def</b> <strong>__init__</strong>(self):</p>
+            <p><i>03</i> &nbsp;&nbsp;&nbsp;&nbsp;self.name = <em>"Gopi"</em></p>
+            <p><i>04</i> &nbsp;&nbsp;&nbsp;&nbsp;self.focus = [</p>
+            <p><i>05</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>"Python"</em>,</p>
+            <p><i>06</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>"Machine Learning"</em>,</p>
+            <p><i>07</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>"Web Development"</em></p>
+            <p><i>08</i> &nbsp;&nbsp;&nbsp;&nbsp;]</p>
+            <p><i>09</i> &nbsp;&nbsp;<b>def</b> <strong>keep_learning</strong>(self):</p>
+            <p><i>10</i> &nbsp;&nbsp;&nbsp;&nbsp;<b>return</b> <em>"Every day"</em></p>
+          </div>
+          <div class="code-footer"><span class="live-dot"></span> Always learning, always building</div>
+        </div>
+        <div class="floating-tag tag-python">Python</div>
+        <div class="floating-tag tag-ml">ML + Data</div>
+        <div class="floating-tag tag-sql">SQL</div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT</p><h2>A little about <span class="gradient-text">me.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-lead reveal"><p class="large-copy">I’m a technology enthusiast who enjoys solving problems through code and exploring how data can create smarter solutions.</p></div>
+        <div class="about-detail reveal"><p>My current focus is Python programming, machine learning and data-related tools, along with web development and SQL databases. I believe in learning by building, experimenting and improving one project at a time.</p><p class="muted">This portfolio is a snapshot of my skills, interests and projects. I’m excited to keep growing as a developer.</p></div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 / TOOLKIT</p><h2>Skills & <span class="gradient-text">technologies.</span></h2><p class="section-intro">The tools I’m learning and using to bring ideas to life.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card reveal"><div class="skill-icon">Py</div><h3>Programming</h3><p>Python</p><div class="skill-line"><span style="width:82%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">ML</div><h3>Machine Learning & Data</h3><p>Scikit-learn · ML and data libraries</p><div class="skill-line"><span style="width:72%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Web Development</h3><p>HTML · CSS · JavaScript</p><div class="skill-line"><span style="width:76%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon">SQL</div><h3>Database</h3><p>SQL</p><div class="skill-line"><span style="width:70%"></span></div></article>
+      </div>
+      <p class="skill-note">Skill bars are visual design elements, not formal proficiency scores.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading reveal"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects & <span class="gradient-text">experiments.</span></h2><p class="section-intro">A few areas I’ve explored through hands-on project work.</p></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><div class="project-number">01</div><div class="project-visual visual-one"><span class="visual-symbol">◉</span><span class="visual-label">COMPUTER VISION</span></div><div class="project-content"><h3>Object Detection</h3><p>Exploring image-based object detection with TensorFlow and computer vision concepts.</p><div class="tags"><span>Python</span><span>TensorFlow</span><span>Computer Vision</span></div></div></article>
+        <article class="project-card reveal"><div class="project-number">02</div><div class="project-visual visual-two"><span class="visual-symbol">⌖</span><span class="visual-label">IMAGE ANALYSIS</span></div><div class="project-content"><h3>Landmark Detection</h3><p>A computer vision project focused on identifying and locating landmarks in images.</p><div class="tags"><span>Python</span><span>AI</span><span>Image Processing</span></div></div></article>
+        <article class="project-card reveal"><div class="project-number">03</div><div class="project-visual visual-three"><span class="visual-symbol">↗</span><span class="visual-label">MACHINE LEARNING</span></div><div class="project-content"><h3>Car Price Prediction</h3><p>An ML project idea exploring how vehicle features and image-related information can support price estimation.</p><div class="tags"><span>Python</span><span>Scikit-learn</span><span>ML</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="eyebrow">04 / CONTACT</p><h2>Have an idea?<br><span class="gradient-text">Let’s connect.</span></h2>
+        <p class="contact-copy">I’m always happy to connect, learn and talk about technology or interesting projects.</p>
+        <a class="button button-primary email-button" href="mailto:gopipula67@gmail.com">gopipula67@gmail.com <span>↗</span></a>
+        <div class="contact-bottom"><span>Based in India</span><div><a href="https://github.com/gopipula33" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/pula-gopi-890382441/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><span>© <span id="year"></span> Gopi. Built with curiosity.</span><a href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
